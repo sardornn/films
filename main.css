@@ -1,0 +1,71 @@
+body {
+    font-family: sans-serif;
+    background: rgb(78, 75, 75);
+}
+
+.container {
+    max-width: 936x;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+
+}
+.list {
+    display: flex;  
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.list__item {
+    padding: 15px;
+    display: block;
+    width: 300px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin-bottom: 10px;
+}
+.form {
+    margin-bottom: 15px;
+    margin-left: 300px;
+}
+.form__btn {
+    border-radius: 5px;
+    border: 1px solid rgb(31, 32, 32);
+    padding: 8px;
+    width: 70px;
+    cursor: pointer ;
+}
+.form__btn:hover {
+    background-color: aliceblue;
+}
+.input__title {
+    outline: none;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(39, 41, 41);
+}
+.input__overview {
+    outline: none;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(23, 24, 24);
+}
+.input__genres {
+    outline: none;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid rgb(13, 13, 14);
+}
+.input__url {
+    border-radius: 3px;
+    border: 1px solid rgb(23, 24, 24);
+    outline: none;
+    padding: 7px;
+}
+
+.newUlList {
+    list-style-type: decimal ;
+    margin-top: 15px;
+    padding: 0 0 0 20px;
+}
